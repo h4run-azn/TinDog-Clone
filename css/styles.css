@@ -1,0 +1,260 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+}
+
+/* Title */
+#title {
+  background-color: #ff4c68;
+}
+
+#title-div {
+  margin-top: 4rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+}
+
+/* Buttons */
+.button1 {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-top: 20px;
+  margin: 5% 3% 5% 0;
+  color: #fff;
+  background-color: #343a40;
+  border: 1px solid #343a40;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+.button2 {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin: 5% 3% 5% 0;
+
+  color: #fff;
+  background-color: #ff4c68;
+  border-color: #fff;
+  border: 1px solid;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 0 0 1rem;
+}
+
+.navbar .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-link {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0.5rem 1rem;
+}
+
+/* Title-Image  */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 3rem;
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.features-box {
+  padding: 5%;
+  text-align: center;
+}
+
+#features h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+/* FEATURES İCONS */
+#icon1 {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+#icon1:hover {
+  color: #ff4c68;
+}
+
+#icon2 {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+#icon2:hover {
+  color: #ff4c68;
+}
+
+#icon3 {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+#icon3:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-next-icon {
+  padding: 7% 15%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+#testimonials h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+
+#testimonials img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#testimonials em {
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 2%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Media */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  padding: 100px 15% 40px;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.ctad h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.ctad button {
+  margin: 5% 3% 5% 0;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 15% 20%;
+}
+.spanSpace {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.social {
+  padding-bottom: 5%;
+}
