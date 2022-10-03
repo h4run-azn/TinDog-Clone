@@ -4,4 +4,4 @@ TinDog Clone
 
 HTML CSS Bootstrap
 
-Go to Website : https://h4run-azn.github.io/TinDog-Clone/
+Go to website : https://h4run-azn.github.io/TinDog-Clone/
